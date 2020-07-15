@@ -51,7 +51,8 @@ To run the dynamic metadata switching mode, you need to set the environment vari
 
 ## Example
 ### Test binutils (c++filt, nm, objdump, and size), libpng (pngfix), tcpdump, and file
-Please refer: /sample/applications/README.md
 
-### Test google fuzzer test suite
-Please refer: /sample/google-fuzzer-test-suite/README.md
+See [the example application README](./sample/applications/README.md)
+
+### Test Google fuzzer test suite
+See [the Google fuzzer test suite README](./sample/google-fuzzer-test-suite/README.md)
