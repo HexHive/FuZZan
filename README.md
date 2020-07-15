@@ -50,7 +50,7 @@ To run the dynamic metadata switching mode, you need to set the environment vari
 - As an example, please refer to the real-world application (sample/applications/run.sh) script or google-fuzzer-test-suite (sample/google-fts/base_template/fts-asan/build.sh) script.
 
 ## Example
-### Test binutils, libpng, tcpdump, and size
+### Test binutils (c++filt, nm, objdump, and size), libpng (pngfix), tcpdump, and file
 Please refer: /sample/applications/README.md
 
 ### Test google fuzzer test suite
