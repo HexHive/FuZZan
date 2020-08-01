@@ -14,4 +14,4 @@ export FUZZAN_MODE=4
 : ${PATHROOT:="$PWD"}
 echo $PATHROOT
 
-/home/jeon41/FuZZan/LLVM/build/bin/clang++ ctor.cpp -o test -mcmodel=small -fsanitize=address -g -O2
+../../LLVM/build/bin/clang++ ctor.cpp -o test -mcmodel=small -fsanitize=address -g -O2
