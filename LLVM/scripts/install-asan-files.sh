@@ -25,6 +25,8 @@ rm $runtime/lib/asan/asan_poisoning.h
 rm $runtime/lib/asan/asan_rtems.cc
 rm $runtime/lib/asan/asan_report.cc
 rm $runtime/lib/sanitizer_common/sanitizer_allocator_primary64.h
+rm $runtime/lib/sanitizer_common/sanitizer_platform_limits_posix.cc
+rm $runtime/lib/sanitizer_common/sanitizer_platform_limits_posix.h
 rm $runtime/lib/sanitizer_common/sanitizer_linux_libcdep.cc
 rm $runtime/lib/asan/asan_flags.inc
 rm $runtime/lib/asan/asan_shadow_setup.cc
@@ -41,6 +43,8 @@ ln -s $src/compiler-rt-files/asan_allocator.h $runtime/lib/asan/asan_allocator.h
 ln -s $src/compiler-rt-files/lib_asan_cmakelists.txt $runtime/lib/asan/CMakeLists.txt
 ln -s $src/compiler-rt-files/sanitizer_CMakeLists.txt $runtime/lib/sanitizer_common/CMakeLists.txt
 ln -s $src/compiler-rt-files/sanitizer_allocator_secondary.h $runtime/lib/sanitizer_common/sanitizer_allocator_secondary.h
+ln -s $src/compiler-rt-files/sanitizer_platform_limits_posix.h $runtime/lib/sanitizer_common/sanitizer_platform_limits_posix.h
+ln -s $src/compiler-rt-files/sanitizer_platform_limits_posix.cc $runtime/lib/sanitizer_common/sanitizer_platform_limits_posix.cc
 ln -s $src/compiler-rt-files/asan_interceptors_memintrinsics.h $runtime/lib/asan/asan_interceptors_memintrinsics.h
 ln -s $src/compiler-rt-files/asan_interface_internal.h $runtime/lib/asan/asan_interface_internal.h
 ln -s $src/compiler-rt-files/asan_mapping.h $runtime/lib/asan/asan_mapping.h
